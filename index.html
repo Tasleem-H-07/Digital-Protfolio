@@ -51,16 +51,7 @@
 
         nav ul li a {
             text-decoration: none;
-            color: #fff;<!DOCTYPE html>
-            <html lang="en">
-            <head>
-                <meta charset="UTF-8">
-                <title>Page title</title>
-            </head>
-            <body>
-                
-            </body>
-            </html>
+            color: #fff;
         }
 
         .section-content {
@@ -105,17 +96,8 @@
         <div class="header-content">
             <!-- Add your profile picture here -->
             <img src="img.jpg" alt="Your Profile Picture" class="profile-picture">
-            <h1><!DOCTYPE html>
-            <html lang="en">
-            <head>
-                <meta charset="UTF-8">
-                <title>Page title</title>
-            </head>
-            <body>
-                
-            </body>
-            </html>Tasleem H</h1>
-            <p>Bsc Computerscience </p>
+            <h1>Tasleem H</h1>
+            <p>am BSC computer science</p>
         </div>
     </header>
 
@@ -133,9 +115,11 @@
     <section id="about">
         <div class="section-content">
             <h2>About Me</h2>
-            <p>I'm a <b>Java language</b> expert who is passionate about creating dynamic and user-friendly websites. 
-                I'm driven by the desire to craft high-performance Java that enhance user experience and provide
-                 seamless digital solutions. I'm also committed to helping others learn more about computer technologies
+            <p>I'm a <b>web development</b> expert who is passionate about creating dynamic and user-friendly websites. 
+                I'm driven by the desire to craft high-performance web applications that enhance user experience and provide
+                 seamless digital solutions. With over 7 years of experience in the field, I'm dedicated to staying up to date 
+                 with the latest trends and innovations in the 
+                 web development landscape. I'm also committed to helping others learn more about web technologies, 
                  best practices, and how to build secure and scalable websites.</p>
 
         </div>
@@ -144,7 +128,7 @@
     <section id="education">
         <div class="section-content">
             <h2>Education</h2>
-            <p>Madras University </p>
+            <p>Deemed University  - Mech</p>
             
             
         </div>
@@ -154,7 +138,12 @@
         <div class="section-content">
             <h2>Skills</h2>
             <ul>
+                <li>React</li>
+                <li>Mern</li>
+                <li>Cloud Computing</li>
                 <li>Python</li>
+                <li>Spring</li>
+                <li>ML & AI</li>
                 <li>java</li>
                 <li>c++</li>
                 <li>Java script</li>
@@ -166,24 +155,30 @@
         <div class="section-content">
             <h2>Projects</h2>
             <ul>
-                <li><a href="#">Java website</a></li>
-                <li><a href="#">AI </a></li>
+                <li><a href="#">E Cart website</a></li>
+                <li><a href="#">Cloud Security IBM</a></li>
+                <li><a href="#">IBM chatbot</a></li>
                 <li><a href="#">College Portal</a></li> 
+                <!-- Add more project links here -->
             </ul>
         </div>
     </section>
+
     <section id="resume">
     
         <div class="section-content">
             <center>
             <h2>Resume</h2>
-            <a href="tasleem resume.pdf"target="_blank" class="download-button">Download CV</a>
+            <a href="tasleem resume .pdf" target="_blank" class="download-button">Download CV</a>
         </center>
-        </div>     
+        </div>
+        
     </section>
+
     <footer>
         <p>&copy; 2025 Tasleem H</p>
     </footer>
+
     <script>
         // Smooth scrolling to section when clicking on navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -191,7 +186,9 @@
                 e.preventDefault();
 
                 const targetId = this.getAttribute('href').substring(1);
-                const targetElement = document.getElementById(targetId);                              if (targetElement) {
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
                     window.scrollTo({
                         top: targetElement.offsetTop,
                         behavior: 'smooth'
